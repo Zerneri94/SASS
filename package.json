@@ -1,0 +1,19 @@
+{
+  "name": "sassintroducao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zerneri94/SASS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zerneri94/SASS/issues"
+  },
+  "homepage": "https://github.com/Zerneri94/SASS#readme"
+}

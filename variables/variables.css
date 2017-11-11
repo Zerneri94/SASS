@@ -1,0 +1,49 @@
+.picture {
+  margin: 0 auto;
+  width: 445px;
+  height: 445px;
+  padding: 10px;
+}
+
+.picture-1 {
+  background: url("http://lorempixel.com/445/445/cats/1");
+}
+
+.picture-2 {
+  background: url("http://lorempixel.com/445/445/cats/2");
+}
+
+.picture-3 {
+  background: url("http://lorempixel.com/445/445/cats/3");
+}
+
+.picture-4 {
+  background: url("http://lorempixel.com/445/445/cats/4");
+}
+
+.picture-5 {
+  background: url("http://lorempixel.com/445/445/cats/5");
+}
+
+.picture-6 {
+  background: url("http://lorempixel.com/445/445/cats/6");
+}
+
+.picture-7 {
+  background: url("http://lorempixel.com/445/445/cats/7");
+}
+
+.picture-8 {
+  background: url("http://lorempixel.com/445/445/cats/8");
+}
+
+.picture-9 {
+  background: url("http://lorempixel.com/445/445/cats/9");
+}
+
+.picture-10 {
+  background: url("http://lorempixel.com/445/445/cats/10");
+}
+ 
+
+ /*# sourceMappingURL= variables.css.map */
