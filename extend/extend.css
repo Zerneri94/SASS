@@ -1,0 +1,24 @@
+.text, .container h1, .container p {
+  text-align: center;
+  color: purple;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container h1, .container .link {
+  text-transform: uppercase;
+}
+
+.container {
+  width: 80%;
+}
+
+.container .link {
+  color: purple;
+}
+ 
+
+ /*# sourceMappingURL= extend.css.map */

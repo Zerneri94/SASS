@@ -1,0 +1,40 @@
+//Variables
+$colorMain:purple;
+
+// Extends e placeholders 
+// Extend cria uma classe para ser reaproveitada, ou seja, essa classe compilara junto no seu css
+// Placeholders são regras guardadas como se fossem variaveis para se aproveitar, não são compiladas na finalização do css.
+.text {
+    text-align: center;
+    color: $colorMain;
+}
+
+%centralizando {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+%uppercase{
+    text-transform: uppercase;
+}
+
+.container {
+    width: 80%;
+    @extend %centralizando;
+
+    h1{
+        @extend %uppercase;
+        //reaproveito tudo que esta escrito na class text
+        @extend .text;
+    }
+
+    p{
+         //reaproveito tudo que esta escrito na class text
+         @extend .text;
+    }
+
+    .link {
+        color: $colorMain;
+        @extend %uppercase;
+    }
+}

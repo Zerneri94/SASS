@@ -1,0 +1,51 @@
+
+//Mixin
+@mixin tamanho($tamanhoDeLargura, $tamanhoDeAltura:$tamanhoDeLargura){
+    width: $tamanhoDeLargura;
+    height: $tamanhoDeAltura;
+}
+@mixin circulo($cor,$tamanho,$radius) {
+    background-color: $cor;
+    @include tamanho($tamanho);
+    border-radius: $radius;
+}
+@mixin after($cor,$tamanho,$content:'',$display: block, $position: absolute){
+    content: $content;
+    display: $display;
+    position: $position;
+    background-color: $cor;
+    @include tamanho($tamanho);
+    @content 
+    
+
+}
+
+//Geral
+.box {
+    margin-bottom: 1rem;
+
+    &.box1 {
+        @include circulo (gold, 100px, 30px);
+        &:after {
+            @include after(red,20px,'',inline-block){
+                top: 0;
+                right: 20px;
+            };
+        }
+        position:relative;
+    }
+    &.box2 {
+        @include circulo (purple, 200px, 5px);
+        position: relative;
+
+        &:after {
+            @include after(white,5); {
+                top: 0;
+                right: 20px;
+            };
+        }
+    }
+    &.box3 {
+        @include circulo (blue, 300px, 20%);
+    }
+}
