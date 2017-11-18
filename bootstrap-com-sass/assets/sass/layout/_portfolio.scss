@@ -1,0 +1,44 @@
+.portfolio {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    @extend .bg-light; 
+    &__container {
+    @extend .col-lg-12;
+    @extend .text-center;
+    }
+    &__title {
+        @extend .mt-0;
+        @extend .mb-4;
+        @extend .text-uppercase;
+        font-size: 2.4rem;
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+    }
+    &__subtitle {
+        font-style: italic;
+        @extend .text-muted;
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+    &__item{
+    @extend .col-md-4;
+    @extend .col-sm-6;
+    }
+    &__item-caption {
+         font-family: Montserrat, sans-serif;
+         padding-top: 5px;
+         font-weight: 800;
+         font-size: 1rem;
+         @extend .text-center; 
+    }
+    &__item-paragraph {
+        font-style: italic;
+        font-size: .75rem;
+        @extend .text-muted;
+        @extend .text-center;
+    }
+    &__link--img{
+    @extend .img-fluid;
+    }
+
+}

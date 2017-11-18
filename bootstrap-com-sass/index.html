@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site com bootstrap</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="menu-main">
+        <div class="container">
+              <a href="" class="menu-main__brand">Bootstrap</a>
+              <button class="menu-main__toogle" data-toogle="collapse" data-target="navResponsive">
+                  <span class="menu-main__toogle--icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navResponsive">
+                  <ul class="menu-main__menu">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>         
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#servicos" class="nav-link">Serviços</a>     
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Potfolio</a>        
+                        </li>
+                  </ul>
+              </div>
+        </div>
+     </nav>
+    <!-- fim Navbar -->
+
+    <!-- header -->
+     <header class="master-header">
+         <div class="container">
+             <div class="intro-text">
+                 <h1 class="intro-text__title">Bem-vindo ao meu Portfólio</h1>
+                 <p class="intro-text__text">Surpreenda-se aqui!</p>
+                 <a href="#portfolio" class="intro-text__btn">Saiba Mais</a>
+             </div>
+         </div>
+
+     </header>
+     <!-- fim header -->
+
+
+     <!-- services -->
+     <section class="services" id="services">
+         <div class="container">
+         </div> 
+     </section>
+     <!-- fim services -->
+
+     <!-- portfolio -->
+     <section class="portfolio bg-light" id="portfolio">
+         <div class="container">
+
+             <!-- title -->
+            <div class="row">
+                <div class="portfolio__container">
+                    <h2 class="portfolio__title">Portfólio</h2>
+                    <h3 class="portfolio__subtitle">Lorem ipsum dolor sit amet.</h3>
+                </div>
+            </div>
+            <!-- fim title -->
+
+        
+            <div class="row">
+
+             <!-- item portfolio -->
+                <div class="portfolio__item">
+                    <a href="" class="portfolio__link" data-toggle="modal" href="#portfolioModal1">
+                        <img class="portfolio__link--img" src="http://lorempixel.com/400/300/people/1" alt="Pessoas">
+                    </a>
+                
+                    <div>
+                        <h4 class="portfolio__item-caption">Moça</h4>
+                        <p class="portfolio__item-paragraph">Olhar</p>
+                    </div>
+                </div>
+             <!-- item portfolio -->
+
+              <!-- item portfolio -->
+              <div class="portfolio__item">
+                    <a href="" class="portfolio__link" data-toggle="modal" href="#portfolioModal2">
+                        <img class="portfolio__link--img" src="http://lorempixel.com/400/300/people/2" alt="Pessoas">
+                    </a>
+                
+                    <div>
+                        <h4 class="portfolio__item-caption">Filhos</h4>
+                        <p class="portfolio__item-paragraph">Família</p>
+                    </div>
+                </div>
+             <!-- item portfolio -->
+
+              <!-- item portfolio -->
+              <div class="portfolio__item">
+                    <a href="" class="portfolio__link" data-toggle="modal" href="#portfolioModal3">
+                        <img class="portfolio__link--img" src="http://lorempixel.com/400/300/people/3" alt="Pessoas">
+                    </a>
+                
+                    <div>
+                        <h4 class="portfolio__item-caption">Preto e Branco</h4>
+                        <p class="portfolio__item-paragraph">Senhor</p>
+                    </div>
+               </div>
+            </div>
+             <!-- item portfolio -->
+
+
+
+        <div class="row">
+                
+            <!-- item portfolio -->
+                <div class="portfolio__item">
+                    <a href="" class="portfolio__link" data-toggle="modal" href="#portfolioModal4">
+                        <img  class="portfolio__link--img" src="http://lorempixel.com/400/300/people/4" alt="Pessoas">
+                    </a>
+                                    
+                <div>
+                    <h4 class="portfolio__item-caption">África</h4>
+                    <p class="portfolio__item-paragraph">Mulheres</p>
+                </div>
+                </div>
+            <!-- fim item portfolio -->
+                    
+            <!-- item portfolio -->
+                <div class="portfolio__item">
+                    <a href="" class="portfolio__link" data-toggle="modal" href="#portfolioModal5">
+                        <img  class="portfolio__link--img" src="http://lorempixel.com/400/300/people/5" alt="Pessoas">
+                    </a>
+                                    
+                <div>
+                    <h4 class="portfolio__item-caption">Pessoas</h4>
+                        <p class="portfolio__item-paragraph">Metro</p>
+                </div>
+                </div>
+            <!-- fim item portfolio -->
+                    
+            <!-- item portfolio -->
+            <div class="portfolio__item">
+                <a href="" class="portfolio__link" data-toggle="modal" href="#portfolioModal6">
+                    <img  class="portfolio__link--img" src="http://lorempixel.com/400/300/people/6" alt="Pessoas">
+                </a>
+                                    
+            <div>
+                <h4 class="portfolio__item-caption">Menina</h4>
+                <p class="portfolio__item-paragraph">Fotografia</p>
+            </div>
+            </div>
+            <!-- fim item portfolio -->
+        </div>
+    <!-- fim portfolio -->
+    </section>
+
+    <!-- modais -->
+    <!-- Modal -->
+    <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Trabalho 1</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            ...
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- colocar jquery pára funcionar -->
+    <script src="node_modules/bootstrap/js/modal.js"></script>
+
+</body>
+</html>
